@@ -1,0 +1,325 @@
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;   
+    margin: 0;
+    padding: 0;
+    background-color: #121521;
+}
+
+p {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+}
+
+/*отрегулировать шрифты*/
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #fff;
+}
+
+/*отрегулировать шрифты*/
+h4 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+}
+
+/*отрегулировать шрифты*/
+.darkerg-twentyeight {
+    /*font-family: 'Darker Grotesque', sans-serif; 
+    font-weight: 600;
+    font-size: 28px; */
+    color: #fff;
+}
+
+/*переименовать класс и отрегулировать шрифты*/
+.dg-400-20 { 
+    /*font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 20px;*/
+    color: #fff;
+}
+
+.dg-400-32 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 43px;   
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 17px;
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    line-height: 130%;
+    margin-right: 30px;
+}
+
+
+.btn__color--purple {
+    background-color: #40467c;
+}
+
+.btn__color--black {
+    background-color: #141923;
+}
+
+.container {
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-menu {
+    height: 140px;
+    
+}
+
+.header-menu__list {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    
+}
+
+.header-menu__list li {
+    list-style: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.header-menu__list--decor {
+    color: #ffffff;
+}
+
+.td-n a {
+    text-decoration: none;
+}
+
+.banner {
+    height: 750px;
+}
+
+.banner-content {
+    width: 455px;
+    height: 380px;
+    margin-right: 75px;
+}
+
+.banner-content h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.banner-text-button a {
+    color: #ffffff;
+}
+
+.banner-content img {
+    position: absolute;
+}
+
+.banner-content .dg-400-20 { /*не знаю как по-другому применить эти действия (класс внутри класса)*/
+line-height: 27px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+}
+
+.video {
+    margin-top: 120px;
+    display: flex;
+}
+
+.video-pic--size {
+    height: 530px;
+}
+
+.video-text {
+    height: 530px;
+    background-color: #1B213A;
+}
+
+.video-text--padding {
+    padding-left: 30px;
+}
+
+.video-text__item {
+    display: grid;
+    grid-template-columns: 275px 275px;
+    gap: 30px;
+}
+
+.location {
+    height: 595px;
+    margin-top: 125px;
+}
+
+.location-img {
+    height: 485px;
+    margin-top: 50px;
+}
+
+.image--proportions {
+    height: 395px;
+    width: 395px;
+}
+
+.location-img__item {
+    width: 395px;
+    height: 495px;
+}
+
+.scroll {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    height: 845px;
+    background-color: #1B213A;
+}
+
+.info-about {
+    width: 580px;
+    margin-right: 60px;
+}
+
+.info-about__item {
+    height: 285px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    padding: 25px 25px;
+}
+
+.info-about__items {
+    height: 110px;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    padding: 25px 25px;;
+}
+
+.info-about__item p { /*наладить шрифты*/
+    /*font-family: 'Darker Grotesque', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;*/
+    color: #fff;
+}
+
+.gallery {
+    margin-top: 200px;
+}
+
+.gallery-title--text {
+    width: 625px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dog-text {
+    text-decoration: none;
+    color: #fff;
+}
+
+.gallery-photo {
+    height: 630px;
+}
+
+.gallery-photo__grid {
+    width: 610px;
+    height: 630px;
+    display: grid;
+    grid-template-columns: 290px 290px;
+    gap: 30px;
+}
+
+.gallery-photo__grid img {
+    width: 290px;
+    height: 300px;
+}
+
+.reviews {
+    margin-top: 120px;
+    height: 680px;
+}
+
+.reviews-block {
+    height: 580px;
+}
+
+.reviews-block--items {
+    height: 580px;
+    width: 500px;
+}
+
+
+.reviews-block__item {
+    height: 275px;
+    background-color: #1B213A;
+    margin-right: 30px;
+}
+
+.reviews-block__item--mb {
+    margin-bottom: 30px;
+}
+
+.drop {
+    margin-top: 120px;
+    height: 640px;
+}
+
+.drop_img--proper {
+    position: absolute;
+    width: 945px;
+    height: 640px;
+    left: 0px;
+    top: 5072px;
+}
+
+.drop-form {
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    left: 945px;
+    top: 5072px;
+    background-color: #1B213A;
+    
+}
+

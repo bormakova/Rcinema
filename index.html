@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RCinema</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600&family=Josefin+Sans&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles/style.css"> 
+</head>
+<body> <!-- разобраться со шрифтами (некорректно отображаются) -->
+    <header class="header-menu container d-flex"> 
+        <img src="images/logo.svg" alt="">
+        <nav class="header-menu-nav">
+            <ul class="header-menu__list td-n">
+                <li><a class="header-menu__list--decor" href="">The experiance</a></li>
+                <li><a class="header-menu__list--decor" href="">Book info</a></li>
+                <li><a class="header-menu__list--decor" href="">Our locations</a></li>
+                <li><a class="header-menu__list--decor" href="">Gallery</a></li>
+                <li><a class="header-menu__list--decor" href="">Reviews</a></li>
+                <li><a class="header-menu__list--decor" href="">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner container d-flex">
+        <div class="banner-content"> 
+            <p class="dg-400-20">Open-air film experiance</p>
+            <h1>Rooftop Cinema</h1>
+            <p class="dg-400-32">To turn your movie night<br>into an adventure</p>
+            <div class="banner-text-button d-flex td-n">
+                <a class="banner-content__btn btn btn__color--purple " href="">BOOK A DAY</a>
+                <a class="btn btn__color--black" href="">HOW IT WORKS</a>
+            </div>
+        </div>
+        <img src="images/cover.jpg" alt="">
+    </section>
+    <section class="video container"> <!-- наложить значок play -->
+        <div class="video-pic">
+            <img class="video-pic--size" src="images/video-bg.jpg" alt="">
+            <!-- <img class ="icon-video" src="images/icon-video.svg" alt=""> как разместить в центр -->
+         </div>
+        <div class="video-text video-text--padding"> 
+            <h3>Open-air film<br>experiance</h3>
+            <div class="video-text__item">
+                <div class="video-text__about">
+                    <h4>Personal Headphones</h4>
+                    <p class="dg-400-20">Live completely in those movie<br>moments, try to catch them!</p>
+                </div>
+                <div class="video-text__about">
+                    <h4>City Views</h4>
+                    <p class="dg-400-20">Our locations immerse<br>you in the city skyline at night</p>
+                </div>
+                <div class="video-text__about">
+                    <h4>Chairs &<br>Cozy Blankets</h4>
+                    <p class="dg-400-20">Lean back and relax under the night<br>sky in the of fluffy blanket</p>
+                </div>
+                <div class="video-text__about">
+                    <h4>Iconic Movies</h4>
+                    <p class="dg-400-20">Our program is curated with cult<br>films, classics, and new releases</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="location container"> <!-- наложить кнопку внутри второй картинки -->
+        <div class="location-title d-flex">
+            <h2>Our locations</h2>
+            <div class="scroll d-flex">
+                <a href="scroll-btn--properties"><img src="images/small_btn_l.svg" alt=""></a>
+                <a href="scroll-btn--properties"><img src="images/small_btn_r.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="location-img d-flex">
+            <div class="location-img__item">
+                <img class="image--proportions" src="images/our-cinema.png" alt="">
+                <div class="d-flex">
+                    <p class="darkerg-twentyeight">Cinema Club El Segundo</p>
+                    <div class="d-flex flex-sb">
+                        <img src="images/star.svg" alt="">
+                        <p>4.6</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-sb">
+                    <p>LOS ANGELRS</p>
+                    <div class="d-flex">
+                        <p>From $25</p>
+                        <p>/person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="location-img__item">
+                <img class="image--proportions" src="images/customers-rewiews.jpg" alt="">
+                <div class="d-flex flex-sb">
+                    <p class="darkerg-twentyeight">The Drive-In Off Navigation</p>
+                    <div class="d-flex">
+                        <img src="images/star.svg" alt="">
+                        <p>4.8</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-sb">
+                    <p>HOUSTON</p>
+                    <div class="d-flex flex-sb">
+                        <div class="d-flex">
+                            <p>From $22</p>
+                            <p>/person</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location-img__item">
+                <img class="image--proportions" src="images/our-embracadero.jpg" alt="">
+                <div class="d-flex flex-sb">
+                    <p class="darkerg-twentyeight">Cinema Club Embracadero</p>
+                    <div class="d-flex">
+                        <img src="images/star.svg" alt="">
+                        <p>4.2</p>
+                    </div>
+                </div>
+                <div class="d-flex flex-sb">
+                    <p>SAN DIEGO</p>
+                    <div class="d-flex">
+                        <p>From $25</p>
+                        <p>/person</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info container d-flex">
+        <div class="info-about">
+            <h3>Booking info</h3>
+            <div class="info-about">
+                <div class="info-about__item">
+                    <div class="info-about__item--position d-flex">
+                        <h4>How does work?</h4>
+                        <a href="accordion">
+                            <img src="images/cross-close.svg" alt="">
+                        </a>
+                    </div>
+                    <p>The Private Cinema can be set up anywhere you like, be it<br>
+                    poolside, on the lawn or even the roof terrace, provided there<br>
+                    is an available power outlet. All films must start after sunset.</p>
+                    <p>Our team of experts arrive in a fully equipped van and will advise<br>
+                        you on the place to setup the cinema based on our<br>
+                        experience.</p>
+                </div>
+                <div class="info-about__items d-flex">
+                    <h4>What films can I choose?</h4>
+                    <a href="accordion">
+                        <img src="images/cross-open.svg" alt="">
+                    </a>
+                </div>
+                <div class="info-about__items d-flex">
+                    <h4>How long does it takes to setup?</h4>
+                    <a href="accordion">
+                        <img src="images/cross-open.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="images/booking-info.jpg" alt="">
+    </section>
+    <section class="gallery container">
+        <div class="gallery-title d-flex">
+            <div class="gallery-title--text">
+                <h2>Gallery</h2>
+                <p>See more and follow us <a class="dog-text" href="#">@rooftopcinema</a></p>
+            </div>
+            <div class="scroll d-flex">
+                <a href="scroll-btn--properties"><img src="images/small_btn_l.svg" alt=""></a>
+                <a href="scroll-btn--properties"><img src="images/small_btn_r.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="gallery-photo container d-flex">
+            <img src="images/gallery-palms.png" alt="">
+            <div class="gallery-photo__grid">
+                <img src="images/gallery-upper-left.jpg" alt="">
+                <img src="images/gallery-upper-right.jpg" alt="">
+                <img src="images/gallery-under-left.jpg" alt="">
+                <img src="images/gallery-under-right.jpg" alt="">
+            </div> 
+        </div>
+    </section>
+    <section class="reviews container"> <!-- добавить кнопки слева текста и поправить текст -->
+        <h2>Customers rewies</h2>
+        <div class="d-flex">   
+        <div class="d-flex">  
+            <div class="reviews-block contai d-flex">
+                <div class="reviews-block--items">
+                    <div class="reviews-block__item reviews-block__item--mb">
+                        <h4>We had an amazing time tonight!</h4>
+                        <p>The parking attendants were great & the quality of the<br>
+                            movie was very good. We got front row parking because<br>
+                            we came early. Loved the experience of it all! Highly<br>
+                            recommend for a date night.</p>
+                        <div class="d-flex">
+                            <p>Rewies by Traci Rc</p>
+                            <p>12 hours ago</p>
+                        </div>
+                    </div>
+                    <div class="reviews-block__item">
+                        <h4>Had a great time watching the Sandlot!</h4>
+                        <p>Everyone who works there is amazing. Some patrons may<br>
+                            need to be a little more patient & understanding... a<br>
+                            socially distant pop-up drive-in theater may not be for<br>
+                            everyone!</p>
+                        <div class="d-flex">
+                            <p>Review by Rebekka Jonson</p>
+                            <p>5 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <img src="images/customers-rewiews.jpg" alt="">
+        </div>
+    </section>
+    <!-- зафиксировать кратинку и блок с формой -->
+    <section class="drop d-flex">
+        <img class="drop_img--proper" src="images/drop-us.jpg" alt="">
+        <div class="drop-form container">
+            <h3>Drop us a line</h3>
+        </div>
+    </section>
+</body>
+</html>
