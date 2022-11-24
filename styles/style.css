@@ -349,8 +349,8 @@ text-transform: uppercase;
     position: absolute;
     width: 60px;
     height: 59.12px;
-    left: 600px;
-   top: 4420px;
+    left: calc(50% - 720px);
+    top: 4420px;
 }
 
 .scroll-btn--margin img{
