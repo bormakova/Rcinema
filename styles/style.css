@@ -178,7 +178,7 @@ text-transform: uppercase;
 
 .icon-video {
     position: absolute;
-    left: 1000px;
+    left: calc(50% - 330px);
     top: 1250px;
     width: 60px;
     height: 60px;
