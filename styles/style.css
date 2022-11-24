@@ -92,6 +92,7 @@ h4 {
 
 .btn__color--black {
     background-color: #141923;
+    border: 2px solid #fff;
 }
 
 .container {
@@ -99,6 +100,8 @@ h4 {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*MEIN-MENU*/
 
 .header-menu {
     height: 140px;
@@ -127,6 +130,8 @@ h4 {
 .td-n a {
     text-decoration: none;
 }
+
+/*BANNER*/
 
 .banner {
     height: 750px;
@@ -159,13 +164,24 @@ letter-spacing: 0.08em;
 text-transform: uppercase;
 }
 
+/*BLOCK WITH VIDEO*/
+
 .video {
     margin-top: 120px;
     display: flex;
+    background-color: #1B213A;
 }
 
 .video-pic--size {
     height: 530px;
+}
+
+.icon-video {
+    position: absolute;
+    left: 1000px;
+    top: 1250px;
+    width: 60px;
+    height: 60px;
 }
 
 .video-text {
@@ -183,6 +199,8 @@ text-transform: uppercase;
     gap: 30px;
 }
 
+/*LOCATIONS*/
+
 .location {
     height: 595px;
     margin-top: 125px;
@@ -198,6 +216,16 @@ text-transform: uppercase;
     width: 395px;
 }
 
+.btn-pos {
+    position: absolute;
+    width: 230px;
+    height: 60px;
+    left: calc(50% - 234px/2);
+    top: 2030px;
+    color: #fff;
+    border: none;
+}
+
 .location-img__item {
     width: 395px;
     height: 495px;
@@ -209,6 +237,8 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 
+/*BOOK INFO*/
+
 .info {
     margin-top: 130px;
     margin-bottom: 130px;
@@ -219,6 +249,15 @@ text-transform: uppercase;
 .info-about {
     width: 580px;
     margin-right: 60px;
+}
+
+.info-about--bg {
+    position: relative;
+    width: 1920px;
+    height: 845px;
+    left: 0;
+    top: 2380px;
+    background-color: #1B213A;
 }
 
 .info-about__item {
@@ -241,6 +280,8 @@ text-transform: uppercase;
     font-size: 20px;*/
     color: #fff;
 }
+
+/*БЛОК GALLERY*/
 
 .gallery {
     margin-top: 200px;
@@ -275,6 +316,8 @@ text-transform: uppercase;
     height: 300px;
 }
 
+/*блок REVIEWS*/
+
 .reviews {
     margin-top: 120px;
     height: 680px;
@@ -294,32 +337,84 @@ text-transform: uppercase;
     height: 275px;
     background-color: #1B213A;
     margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 .reviews-block__item--mb {
     margin-bottom: 30px;
 }
 
-.drop {
+.scroll-btn--position{
+    position: absolute;
+    width: 60px;
+    height: 59.12px;
+    left: 600px;
+   top: 4420px;
+}
+
+.scroll-btn--margin img{
+    margin-bottom: 30px;
+}
+
+/* Блок с формой DROPS*/
+.form--dark {
+    background-color: #1B213A;
+}
+
+.form-drop {
     margin-top: 120px;
     height: 640px;
 }
 
-.drop_img--proper {
-    position: absolute;
-    width: 945px;
-    height: 640px;
-    left: 0px;
-    top: 5072px;
+.form-drop--margin {
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
-.drop-form {
-    position: absolute;
+.form-drop__outside {
+    position: relative;
+    right: 340px;
+}
+
+.form-drop__form {
     width: 640px;
     height: 640px;
-    left: 945px;
-    top: 5072px;
-    background-color: #1B213A;
-    
 }
 
+.input:focus {
+    border: 2px solid #fff;
+}
+
+.textform {
+    background-color: #1B213A;
+    border: 2px solid #40467c;
+    width: 520px;
+    height: 60px;
+}
+
+.textform--font {
+    margin-bottom: 15px;
+}
+
+.textarea {
+    background-color: #1B213A;
+    border: 2px solid #40467c;
+    width: 520px;
+    height: 130px;
+}
+
+.send-primary {
+    color: #fff;
+    border: none;
+}
+
+.checkbox__input--mark {
+    color: #40467c; /*не применяется*/
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+/*FOOTER BLOCK*/

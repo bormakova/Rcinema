@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/style.css"> 
 </head>
 <body> <!-- разобраться со шрифтами (некорректно отображаются) -->
+    <!-- MEIN-MENU -->
     <header class="header-menu container d-flex"> 
         <img src="images/logo.svg" alt="">
         <nav class="header-menu-nav">
@@ -24,11 +25,12 @@
             </ul>
         </nav>
     </header>
+    <!-- BANNER -->
     <section class="banner container d-flex">
         <div class="banner-content"> 
-            <p class="dg-400-20">Open-air film experiance</p>
+            <p class="">Open-air film experiance</p>
             <h1>Rooftop Cinema</h1>
-            <p class="dg-400-32">To turn your movie night<br>into an adventure</p>
+            <p class="">To turn your movie night<br>into an adventure</p>
             <div class="banner-text-button d-flex td-n">
                 <a class="banner-content__btn btn btn__color--purple " href="">BOOK A DAY</a>
                 <a class="btn btn__color--black" href="">HOW IT WORKS</a>
@@ -36,10 +38,11 @@
         </div>
         <img src="images/cover.jpg" alt="">
     </section>
+    <!-- BLOCK WITH VIDEO -->
     <section class="video container"> <!-- наложить значок play -->
         <div class="video-pic">
             <img class="video-pic--size" src="images/video-bg.jpg" alt="">
-            <!-- <img class ="icon-video" src="images/icon-video.svg" alt=""> как разместить в центр -->
+            <img class ="icon-video" src="images/icon-video.svg" alt="">
          </div>
         <div class="video-text video-text--padding"> 
             <h3>Open-air film<br>experiance</h3>
@@ -63,6 +66,7 @@
             </div>
         </div>
     </section>
+    <!-- LOCATIONS -->
     <section class="location container"> <!-- наложить кнопку внутри второй картинки -->
         <div class="location-title d-flex">
             <h2>Our locations</h2>
@@ -91,6 +95,7 @@
             </div>
             <div class="location-img__item">
                 <img class="image--proportions" src="images/customers-rewiews.jpg" alt="">
+                <button class="btn btn__color--purple btn-pos">CHOOSE LOCATION</button>
                 <div class="d-flex flex-sb">
                     <p class="darkerg-twentyeight">The Drive-In Off Navigation</p>
                     <div class="d-flex">
@@ -127,8 +132,10 @@
             </div>
         </div>
     </section>
+    <!-- BOOK INFO -->
     <section class="info container d-flex">
-        <div class="info-about">
+        <div class=""></div>
+        <div class="info-about ">
             <h3>Booking info</h3>
             <div class="info-about">
                 <div class="info-about__item">
@@ -161,6 +168,7 @@
         </div>
         <img src="images/booking-info.jpg" alt="">
     </section>
+    <!-- БЛОК GALLERY -->
     <section class="gallery container">
         <div class="gallery-title d-flex">
             <div class="gallery-title--text">
@@ -182,11 +190,15 @@
             </div> 
         </div>
     </section>
+    <!-- блок REVIEWS -->
     <section class="reviews container"> <!-- добавить кнопки слева текста и поправить текст -->
-        <h2>Customers rewies</h2>
-        <div class="d-flex">   
-        <div class="d-flex">  
-            <div class="reviews-block contai d-flex">
+        <h2>Customers rewies</h2>  
+        <div class="d-flex">
+            <div class="arrows-ouside scroll-btn--position scroll-btn--margin">
+                <a href="scroll-btn--properties"><img src="images/arrow-upper (2).svg" alt=""></a>
+                <a href="scroll-btn--properties"><img src="images/arrow-under (2).svg" alt=""></a>
+            </div>  
+            <div class="reviews-block d-flex">
                 <div class="reviews-block--items">
                     <div class="reviews-block__item reviews-block__item--mb">
                         <h4>We had an amazing time tonight!</h4>
@@ -214,12 +226,51 @@
             <img src="images/customers-rewiews.jpg" alt="">
         </div>
     </section>
-    <!-- зафиксировать кратинку и блок с формой -->
-    <section class="drop d-flex">
-        <img class="drop_img--proper" src="images/drop-us.jpg" alt="">
-        <div class="drop-form container">
-            <h3>Drop us a line</h3>
+    <!-- Блок с формой DROPS -->
+    <section class="form-drop">
+        <div class="container">
+            <div class="form-drop__outside d-flex">
+                <img src="images/drop-us.jpg" alt="">
+                <div class="form-drop__form form--dark">
+                    <form class="form-drop--margin" action="">
+                        <h2>Drop us a line</h2>
+                        <input class="textform textform--font" type="text">
+                        <input class="textform textform--font" type="e-mail" name="" id="">
+                        <input class="textarea textform--font" type="text">
+                        <label class="checkbox d-flex flex-sb">
+                            <button class="btn btn__color--purple send-primary">SEND MESSAGE</button>
+                            <div class="d-flex">
+                                <input class="checkbox__input checkbox__input--mark" type="checkbox">
+                                <p>I have read and agree with<br><span>the Terms And Conditions</span></p>
+                            </div>
+                        </label>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- FOOTER BLOCK -->
+    <footer class="footer">
+        <div class="footer-under">
+            <img src="images/logo.svg" alt="">
+            <div>
+                <p></p>
+                <p></p>
+            </div>
+            <div>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="footer-under__sign"></div>
+        </div> 
+        <div class="footer-bg container d-flex">
+            <p>© All rights reserved • Terms & Conditions • Privacy Policy</p>
+            <div class="footer-bg__icons">
+                <img src="images/facebook.svg" alt="">
+                <img src="images/insta.svg" alt="">
+                <img src="images/youtube.svg" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
