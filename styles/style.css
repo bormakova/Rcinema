@@ -427,9 +427,25 @@ text-transform: uppercase;
 .footer__form {
     width: 410px;
     height: 70px;
-    background-color: #1B213A;
+    border: 2px solid #40467c;
+    margin-left: 200px;
+}
+
+.footer__form--prop {
+    width: 260px;
+    height: 68px;
+    background-color: #121521;
+    border: none;
+    color: #fff;
+    padding-left: 25px;
 }
 
 .footer-bg {
+    height: 130px;
+    background-color: #1B213A;
+}
+
+.footer-bg--margin {
+    align-items: center;
     height: 130px;
 }
