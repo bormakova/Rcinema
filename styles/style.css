@@ -418,3 +418,18 @@ text-transform: uppercase;
 }
 
 /*FOOTER BLOCK*/
+
+.footer {
+    height: 200px;
+    margin-top: 70px;
+}
+
+.footer__form {
+    width: 410px;
+    height: 70px;
+    background-color: #1B213A;
+}
+
+.footer-bg {
+    height: 130px;
+}
